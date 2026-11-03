@@ -1,0 +1,33 @@
+# ===== 环境与依赖（不入库）=====
+.venv/
+pyvenv.cfg
+__pycache__/
+*.py[cod]
+
+# ===== 编辑器 / AI 工具配置（含设备指纹与个人路径）=====
+.marscode/
+.trae/
+.agents/
+.vscode/
+
+# ===== 日志与调试输出 =====
+*.log
+
+# ===== 标定照片（含实验室内景，不公开）=====
+*.png
+*.jpg
+*.jpeg
+
+# ===== 第三方二进制与打包文件 =====
+*.whl
+*.tar
+*.tar.gz
+hardware_tests/arm/web_index.js
+
+# ===== OS / 编辑器垃圾文件 =====
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~

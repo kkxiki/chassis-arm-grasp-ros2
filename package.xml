@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>agv_chassis_demo</name>
+  <version>1.0.0</version>
+  <description>AGV chassis + mechanical arm integrated control program</description>
+  <maintainer email="dev@example.com">dev</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>libcurl4</exec_depend>
+  <depend>rclcpp</depend>
+  <depend>vision_msgs</depend>
+  <depend>service_interfaces</depend>
+</package>

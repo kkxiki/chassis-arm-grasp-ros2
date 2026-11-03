@@ -1,0 +1,42 @@
+//充电桩位置数据
+{
+    "clientId": "dispatch",
+    "cmd": 15,
+    "actionId": 3019,
+    "code": 0,
+    "msg": "",
+    "callId": "685547566888255488",
+    "data": {
+        "robotStatusList": [
+            {
+                "robotId": 227,
+                "x": -3.1355438,
+                "y": -2.7329307,
+                "angle": -94.26976,
+                "taskStatus": 0,
+                "battery": 62,
+                "voltage": 49.9,
+                "current": -11.6,
+                "speed": 0.0,
+                "isCharging": true,
+                "isForceStop": false,
+                "wifiStatusFreq": 4.0,
+                "loraStatusFreq": 0.0,
+                "storageStatus": [],
+                "lastTimeStatus": 121,
+                "mapName": "tkmap",
+                "navScore": 0.9570552,
+                "bootTime": 33892,
+                "isAgvPaused": false,
+                "isRobotArmPaused": false,
+                "isRobotArmFinishSoon": false,
+                "robotPauseType": 0,
+                "scannerData": "",
+                "arrivedNodeName": ""
+            }
+        ],
+        "taskStatusList": []
+    }
+}
+
+

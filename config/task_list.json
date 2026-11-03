@@ -1,0 +1,20 @@
+{
+  "tasks": [
+    {
+      "task_name": "10站点巡检作业任务",
+      "map_id": 63,
+      "site_list": [
+        {"site_id": 234, "action_id": 0},
+        {"site_id": 226, "action_id": 0},
+        {"site_id": 227, "action_id": 0},
+        {"site_id": 228, "action_id": 0},
+        {"site_id": 229, "action_id": 0},
+        {"site_id": 231, "action_id": 0},
+        {"site_id": 230, "action_id": 0},
+        {"site_id": 191, "action_id": 0},
+        {"site_id": 232, "action_id": 0},
+        {"site_id": 234, "action_id": 0}
+      ]
+    }
+  ]
+}

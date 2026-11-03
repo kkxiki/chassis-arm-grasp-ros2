@@ -1,0 +1,43 @@
+{
+    "chassis_url": "http://192.168.30.200:8767",
+    "dispatch_url": "http://192.168.30.200:8008",
+    "robot_id": 227,
+    "move_speed": 0.3,
+    "rot_speed": 30.0,
+    "retry_count": 2,
+    "arm_ip": "192.168.30.11",
+    "arm_port": 5868,
+    "home_pose": {
+        "x": -3.1355,
+        "y": -2.1429,
+        "angle": -90.2697
+    },
+    "vision": {
+        "detections_topic": "/yolov8/detections",
+        "target_class_id": "39",
+        "min_confidence": 0.40,
+        "image_width": 1280,
+        "image_height": 720,
+        "arm_type": 0,
+        "center_deadband_px": 40.0,
+        "stable_frames": 5,
+        "release_frames": 10,
+        "max_center_jump_px": 15.0,
+        "execute_enabled": false,
+        "workspace_x_min": 0.0,
+        "workspace_x_max": 1000.0,
+        "workspace_y_min": -700.0,
+        "workspace_y_max": 700.0,
+        "workspace_z_min": -300.0,
+        "workspace_z_max": 500.0,
+        "grasp": {
+            "pregrasp_dist_mm": 200.0,
+            "grasp_rpy_deg": [-102.7, -39.0, -78.6],
+            "safe_home_joints": [0.0, -90.0, 0.0, -90.0, 0.0, 0.0],
+            "release_joints": [0.0, -90.0, 0.0, -90.0, 0.0, 0.0],
+            "hand_close_cmd": "",
+            "hand_open_cmd": "",
+            "move_wait_ms": 3000
+        }
+    }
+}

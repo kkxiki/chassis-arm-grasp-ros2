@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>chassis_driver</name>
+  <version>0.0.0</version>
+  <description>AGV COR-A100SV HTTP communication test</description>
+  <maintainer email="user@test.com">user</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+
+  <build_depend>libcurl-dev</build_depend>
+  <build_depend>nlohmann-json3-dev</build_depend>
+  <exec_depend>libcurl-dev</exec_depend>
+  <exec_depend>nlohmann-json3-dev</exec_depend>
+</package>

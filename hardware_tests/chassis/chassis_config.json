@@ -1,0 +1,13 @@
+{
+    "chassis_url": "http://192.168.30.200:8767",
+    "dispatch_url": "http://192.168.30.200:8008",
+    "robot_id": 227,
+    "map_id": 63,
+    "move_speed": 0.3,
+    "rot_speed": 30.0,
+    "home_pose": {
+        "x": -3.1355,
+        "y": -2.1429,
+        "angle": -90.2697
+    }
+}
